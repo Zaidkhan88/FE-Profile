@@ -1,0 +1,74 @@
+{/* Contact Information
+          <section className="mb-6">
+            <h3 className="text-md font-medium">Contact Information</h3>
+            <p><strong>Email:</strong> Rakeshraushan@Gmail.com</p>
+            <p><strong>Phone:</strong> +91 9922004856</p>
+          </section>
+
+          {/* Bio Section */}
+          <section className="mb-6">
+            <div className="flex justify-between">
+              <h3 className="text-md font-medium">Bio</h3>
+              <button className="text-gray-500">
+                <FiEdit />
+              </button>
+            </div>
+            <p className="mt-2 text-gray-700">
+              I'm a recent graduate with a passion for data. I'm eager to learn data analysis techniques 
+              and build a strong foundation in this exciting field. I'm excited to explore the courses 
+              offered on SimpliTrain and gain the necessary skills to kickstart my data analyst career.
+            </p>
+          </section>
+
+          {/* Preferred Language */}
+          <section className="mb-6">
+            <div className="flex justify-between">
+              <h3 className="text-md font-medium">Preferred Language</h3>
+              <button className="text-gray-500">
+                <FiEdit />
+              </button>
+            </div>
+            <p className="mt-2">English, Hindi</p>
+          </section>
+
+          {/* Interested Topics */}
+          <section className="mb-6">
+            <div className="flex justify-between">
+              <h3 className="text-md font-medium">Interested Topics</h3>
+              <button className="text-gray-500">
+                <FiEdit />
+              </button>
+            </div>
+            <div className="mt-2 flex flex-wrap gap-2">
+              {["Web Development", "Mobile Development", "Programming Languages", "Leadership", "Career Development", "Digital Marketing"].map((topic) => (
+                <span key={topic} className="bg-gray-200 text-gray-700 px-3 py-1 rounded-md text-sm">{topic}</span>
+              ))}
+            </div>
+          </section>
+
+          {/* Social Media Links */}
+          {/* <section className="mb-6">
+            <h3 className="text-md font-medium">Social Media</h3>
+            <div className="mt-2 flex gap-4 text-gray-600 text-2xl">
+              <FaLinkedin /> 
+              {/* <FaXTwitter /> */}
+              {/* <FaGoogle />
+              <FaDribbble />
+            {/* </div>
+          </section> */}
+          {/* Education *
+          {/* <section className="mb-6">
+
+
+            <h3 className="text-md font-medium">Education</h3>
+            <div className="mt-2">
+              <p><strong>Imperial College London</strong> - Masters in Marketing (2016-2018)</p>
+              <p><strong>MIT University</strong> - Bachelor's in Engineering (2012-2016)</p>
+            </div>
+          </section>
+
+          {/* Work Experience */}
+          {/* <section>
+            <h3 className="text-md font-medium">Work Experience</h3>
+            <p><strong>Software Engineer</strong> - Amazon (July 2018 - Present)</p>
+          </section> */}
